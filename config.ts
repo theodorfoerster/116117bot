@@ -2,6 +2,7 @@ const getConfig = () => {
   return {
     port: process.env.PORT ?? 3000,
     urls: process.env.URLS,
+    age: process.env.AGE,
     pushover: {
       token: process.env.PUSHOVER_TOKEN,
       user: process.env.PUSHOVER_USER,
