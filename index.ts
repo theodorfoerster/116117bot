@@ -97,7 +97,7 @@ class Impfbot {
         "rest/suche/termincheck?plz=" +
         zip +
         "&leistungsmerkmale=" +
-        vaccinations +
+        "L922" +
         "&cachebuster=" +
         Date.now();
       const availableResponse = (await axios.get(checkUrl)).data;
